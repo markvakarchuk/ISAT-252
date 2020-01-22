@@ -1,6 +1,5 @@
 import time
 import random
-#import pytest
 
 # defining all global variables 
 win_streak = 0      # counts how many times the user won
