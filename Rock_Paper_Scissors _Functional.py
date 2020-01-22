@@ -9,7 +9,6 @@ id = 0
 
 rounds = []
 
-
 #printing the welcome message
 print("Welcome to Rock, Paper, Scissors, lets play!")
 time.sleep(0.5)
