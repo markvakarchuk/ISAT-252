@@ -2,7 +2,7 @@ import time
 import random
 
 #defining variables
-length_of_round = -1
+length_of_round = 1
 
 #replace values divideable by 
 fizz = 3  
@@ -11,6 +11,6 @@ fizzbuzz = fizz * buzz
 
 
 
-def run_round()
-    for i in length_of_round
+def run_round():
+    for i in length_of_round:
 
