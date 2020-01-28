@@ -9,6 +9,7 @@ buzz = 0
 fizzbuzz = 0
 
 length_of_round = int(input("\nEnter length of round desired: "))
+print("\nNote: FizzBuzz = Fizz * Buzz")
 fizz = int(input("Enter divider to replace with 'Fizz': "))
 buzz = int(input("Enter divider to replace with 'Buzz': "))
 fizzbuzz = fizz * buzz
