@@ -1,5 +1,3 @@
-#import timeit 
-
 #defining variables
 length_of_round = 00
 
