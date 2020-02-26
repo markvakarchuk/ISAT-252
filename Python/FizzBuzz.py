@@ -39,8 +39,10 @@ def run_round(i):
 
     return output
 
+
 for i in range(length_of_round):
     print(run_round(i+1))
+
 
 end = time.time()
 
