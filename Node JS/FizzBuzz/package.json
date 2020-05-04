@@ -1,0 +1,11 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "writing fizzbuzz in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}

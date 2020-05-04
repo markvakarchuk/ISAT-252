@@ -12,3 +12,6 @@ def describe_a_fizzbuzz_program_that():
         assert run_round(3) == "Fizz"
         assert run_round(2) == "2"
         assert run_round(15) == "FizzBuzz"
+
+    def check_blah():
+        assert True

@@ -2,25 +2,25 @@ import time
 import random
 
 
-# defining all global variables 
-# win_streak = 0      # counts how many times the user won
-# play_again = True   # flag for if another round should be played
-# game_states = ["rock", "paper", "scissors"]
-# id = 0
+#defining all global variables 
+win_streak = 0      # counts how many times the user won
+play_again = True   # flag for if another round should be played
+game_states = ["rock", "paper", "scissors"]
+id = 0
 
-# rounds = []
+rounds = []
 
-# #printing the welcome message
-# print("Welcome to Rock, Paper, Scissors, lets play!")
-# time.sleep(0.5)
-# input("Press Enter to continue... \n")
+# printing the welcome message
+print("Welcome to Rock, Paper, Scissors, lets play!")
+time.sleep(0.5)
+input("Press Enter to continue... \n")
 
 
-# class round():
-#     def __init__(self, id, comp_move, user_move):
-#         self.id = id
-#         self.comp = comp_move
-#         self.user = user_move
+class round():
+    def __init__(self, id, comp_move, user_move):
+        self.id = id
+        self.comp = comp_move
+        self.user = user_move
 
 
 def determine_winner(comp_move, user_move):
@@ -48,7 +48,7 @@ def determine_winner(comp_move, user_move):
         print("Better luck next time! \n")
         play_again = False
     
-    id += 1
+    # id += 1
 
     round_played =  round (id, comp_move, user_move)
     rounds.append(round_played)
